@@ -27,6 +27,8 @@ import shyamal from "/public/assets/images/mentors3/shyamal.jpeg";
 import sounak from "/public/assets/images/mentors3/sounak.jpeg";
 import sunchit from "/public/assets/images/mentors3/sunchit.jpeg";
 import abhimanyu from "/public/assets/images/mentors3/abhimanyu.jpeg";
+import chanpreet from "/public/assets/images/mentors3/chanpreet.jpeg";
+import piyush from "/public/assets/images/mentors3/piyush.jpeg";
 
 
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -397,6 +399,34 @@ const Speakers = () => {
             social={
               <a
                 href="https://www.linkedin.com/in/sounak-ghosh/"
+                className="text-2xl text-gray-400 pb-1"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+            // role="Nordek"
+          />
+          <Member
+            image={chanpreet}
+            name="Chanpreet Singh"
+            social={
+              <a
+                href="https://www.linkedin.com/in/chanpreet-singh-chugh-8004ab141/"
+                className="text-2xl text-gray-400 pb-1"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+            // role="Nordek"
+          />
+          <Member
+            image={piyush}
+            name="Piyush Sharma "
+            social={
+              <a
+                href="https://www.linkedin.com/in/piyush-sharma-a5801813b/"
                 className="text-2xl text-gray-400 pb-1"
                 target={"_blank"}
               >
