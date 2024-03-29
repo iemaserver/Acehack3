@@ -1,23 +1,25 @@
 import React, { Fragment } from "react";
 
 const Timeline = () => {
-    const events = [
-        //Day 1
-        { direction: "right", time: "09:30 AM", heading: "Check-In Starts" },
-        { direction: "left", time: "11:00 AM", heading: "Opening Ceremony" },
-        { direction: "right", time: "11:30 AM", heading: "Rajasthan Police Session" },
-        { direction: "left", time: "12:00 PM", heading: "Hackathon Starts" },
-        { direction: "right", time: "01:30 PM", heading: "Lunch" },
-        { direction: "left", time: "02:30 PM", heading: "Nordek Session" },
-        { direction: "right", time: "03:30 PM", heading: "Orkes Session" },
-        { direction: "left", time: "04:10 PM", heading: "HackQuest Session" },
-        { direction: "right", time: "06:30 PM", heading: "FunZone Opens" },
-        { direction: "left", time: "08:30 PM", heading: "Dinner + AceHack UnPlugged" },
-        { direction: "right", time: "11:30 PM", heading: "Tech Talk by Aryan Singh" },
-        { direction: "left", time: "12:30 AM", heading: "Mentoring Round 1" },
-        { direction: "right", time: "01:00 AM", heading: "Midnight Snacks" },
-        { direction: "left", time: "01:30 AM", heading: "Midnight Games" },
-    ];
+  const events = [
+    //Day 1
+    { direction: "right", time: "09:30 AM", heading: "Check-in" },
+    { direction: "left", time: "11:00 AM", heading: "Opening Ceremony" },
+    { direction: "right", time: "11:30 AM", heading: "Rajasthan Police Session" },
+    { direction: "left", time: "12:00 PM", heading: "Hackathon starts" },
+    { direction: "right", time: "01:30 PM", heading: "Lunch" },
+    { direction: "left", time: "02:30 PM", heading: "Nordek Session" },
+    { direction: "right", time: "03:30 PM", heading: "Orkes Session" },
+    { direction: "left", time: "04:10 PM", heading: "Hackquest Session" },
+    { direction: "right", time: "06:30 PM", heading: "Funzone opens" },
+    { direction: "left", time: "07:30 PM", heading: "Tech Talk by Sunchit Dudeja" }, // Added event
+    { direction: "right", time: "08:30 PM", heading: "Dinner + Acehack3.0 unplugged" },
+    { direction: "left", time: "09:30 PM", heading: "Tech Talk by Aryan Singh" }, // Updated time
+    { direction: "right", time: "11:30 PM", heading: "Mentoring Round 1" },
+    { direction: "left", time: "12:00 AM", heading: "Midnight Snacks" },
+    { direction: "right", time: "12:30 AM", heading: "Game Zone" },
+];
+
     const events2 = [
         // Day 2
         { direction: "right", time: "08:00 AM", heading: "Pulse Pump" },

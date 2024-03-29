@@ -19,6 +19,7 @@ import AddressMap from "./pages/map";
 import AceHackSm from "/assets/images/website-v2.svg";
 import Live from "./pages/Live";
 import Timeline from "./pages/Timeline";
+import BadgeGenerator from "./pages/BadgeGenerator";
 import GetInvolved from "./pages/GetInvolved";
 
 const AceLogo = (prop) => {
@@ -58,8 +59,9 @@ const App = () => {
                   <Themes />
                   <Why />
                   <Prizes />
-                  <Referal />
-                  <GetInvolved />
+                  {/* <BadgeGenerator /> */}
+                  {/* <Referal /> */}
+                  {/* <GetInvolved /> */}
                   <Sponsor />
                   <Past />
                   {/* <Speakers /> */}
