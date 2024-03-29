@@ -1,26 +1,30 @@
 import React from "react";
 import Member from "../components/Member";
 
-import aishwarya from "/assets/images/speakers/aishwarya.jpeg";
-import abhimanyu from "/assets/images/speakers/abhimanyu.jpeg";
-import abhinav from "/assets/images/speakers/abhinav.jpeg";
-import ayushman from "/assets/images/speakers/ayushman.jpeg";
-import kanav from "/assets/images/speakers/kanav.jpeg";
-import manank from "/assets/images/speakers/manank.jpeg";
-import prajakta from "/assets/images/speakers/prajakta.jpeg";
-import rishabh from "/assets/images/speakers/rishabh.jpeg";
-import sheetal from "/assets/images/speakers/sheetal.jpeg";
-import shyaamal from "/assets/images/speakers/shyaamal.jpeg";
-import vishek from "/assets/images/speakers/vishek.jpeg";
-import khushi from "/assets/images/speakers/khushi.jpeg";
-import nishant from "/assets/images/speakers/nishant.jpeg";
-import gantavya from "/assets/images/speakers/gantavya.jpeg";
-import shatakshi from "/assets/images/speakers/shatakshi.jpeg";
-import aryan from "/assets/images/speakers/aryan.jpeg";
-import khushi_t from "/assets/images/speakers/khushi_t.jpeg";
-import aanchal from "/assets/images/speakers/aanchal.jpg";
-import ali from "/assets/images/speakers/ali.jpg";
-import ayon from "/assets/images/speakers/ayon.jpeg";
+import abdallalit from "/public/assets/images/mentors3/abdal lalit.jpeg";
+import abhinavrai from "/public/assets/images/mentors3/abhinav rai.jpeg";
+import abhinav from "/public/assets/images/mentors3/abhinav.jpeg";
+import ayonroy from "/public/assets/images/mentors3/ayon roy.jpeg";
+import chhavi from "/public/assets/images/mentors3/chhavi.jpeg";
+import chinmay from "/public/assets/images/mentors3/chinmay.jpeg";
+import devendra from "/public/assets/images/mentors3/devendra.jpeg";
+import gurkirat from "/public/assets/images/mentors3/gurkirat.jpeg";
+import himani from "/public/assets/images/mentors3/himani.jpeg";
+import jaskaran from "/public/assets/images/mentors3/jaskaran.jpeg";
+import manav from "/public/assets/images/mentors3/manav.jpeg";
+import maninder from "/public/assets/images/mentors3/Maninder.jpeg";
+import pankaj from "/public/assets/images/mentors3/pankaj.jpeg";
+import pranav from "/public/assets/images/mentors3/pranav.jpeg";
+import raajessh from "/public/assets/images/mentors3/raajessh.jpeg";
+import rishabh from "/public/assets/images/mentors3/rishabh.jpeg";
+import rishika from "/public/assets/images/mentors3/Rishika.jpeg";
+import rohan from "/public/assets/images/mentors3/rohan.jpeg";
+import shambhavi from "/public/assets/images/mentors3/shambhavi.jpeg";
+import shivam from "/public/assets/images/mentors3/shivam.jpeg";
+import shyamal from "/public/assets/images/mentors3/shyamal.jpeg";
+import sounak from "/public/assets/images/mentors3/sounak.jpeg";
+import sunchit from "/public/assets/images/mentors3/sunchit.jpeg";
+
 
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -33,30 +37,7 @@ const Speakers = () => {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Member
-            image={aanchal}
-            name="Aanchal Mishra"
-            role="Developer Advocate, Student Program, Postman."
-          />
-          <Member
-            image={ali}
-            name="Ali Mustufa Shaikh"
-            role="Senior Developer Advocate, Postman."
-          />
-          <Member
-            image={ayushman}
-            name="Ayushman Pandita"
-            social={
-              <a
-                href="https://www.instagram.com/xyushmxn/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaInstagram />
-              </a>
-            }
-          />
-          <Member
-            image={aryan}
+            image={abdallalit}
             name="Aryan Kaushik"
             social={
               <a
@@ -68,216 +49,6 @@ const Speakers = () => {
               </a>
             }
             role="Mentor, Judge"
-          />
-          <Member
-            image={sheetal}
-            name="Sheetal Jain"
-            social={
-              <a
-                href="https://twitter.com/Sheetal2205"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaTwitter />
-              </a>
-            }
-          />
-          <Member
-            image={abhinav}
-            name="Abhinav Sharma"
-            social={
-              <a
-                href="https://www.linkedin.com/in/abhinavsharma0/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-
-          <Member
-            image={prajakta}
-            name="Prajakta kadam"
-            social={
-              <a
-                href="https://www.linkedin.com/in/prajaktak8/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={rishabh}
-            name="Rishabh Sharma"
-            social={
-              <a
-                href="https://www.linkedin.com/in/rishabhsharma2023/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={shyaamal}
-            name="Shyaamal Tripathi"
-            social={
-              <a
-                href="https://www.linkedin.com/in/shyaamal-tripathi-a389051b3/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={vishek}
-            name="Vishek  Pratap"
-            social={
-              <a
-                href="https://www.linkedin.com/in/vishekpratap/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={kanav}
-            name="Kanav Bhagat"
-            social={
-              <a
-                href="https://www.instagram.com/formula.guy/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaInstagram />
-              </a>
-            }
-          />
-          <Member
-            image={abhimanyu}
-            name="Abhimanyu Shekhawat"
-            social={
-              <a
-                href="https://www.linkedin.com/in/abhimanyu-shekhawat-886896168/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={manank}
-            name="Manank Patni"
-            social={
-              <a
-                href="https://www.linkedin.com/in/manankpatni/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={aishwarya}
-            name="Aishwarya Suresh"
-            social={
-              <a
-                href="https://www.linkedin.com/in/aishwaryasuresh17/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={nishant}
-            name="Nishant Mishra"
-            social={
-              <a
-                href="https://www.linkedin.com/in/curlyparadox/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={khushi}
-            name="Khushi Naudiyal"
-            social={
-              <a
-                href="https://www.linkedin.com/in/khushi-naudiyal-a0647718a/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={gantavya}
-            name="Gantavya Malviya"
-            social={
-              <a
-                href="https://www.linkedin.com/in/gantavyamalviya/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={shatakshi}
-            name="Shatakshi Verma"
-            social={
-              <a
-                href="https://www.linkedin.com/in/shatakshi-verma-708426200/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-
-          <Member
-            image={khushi_t}
-            name="Khushi Trivedi"
-            social={
-              <a
-                href="https://www.linkedin.com/in/the-khushi-trivedi/"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
-          />
-          <Member
-            image={ayon}
-            name="Ayon Roy"
-            social={
-              <a
-                href="https://www.linkedin.com/in/ayon-roy"
-                className="text-2xl text-gray-400"
-                target={"_blank"}
-              >
-                <FaLinkedin />
-              </a>
-            }
           />
         </div>
       </section>
