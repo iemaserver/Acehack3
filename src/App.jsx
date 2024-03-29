@@ -19,7 +19,6 @@ import AddressMap from "./pages/map";
 import AceHackSm from "/assets/images/website-v2.svg";
 import Live from "./pages/Live";
 import Timeline from "./pages/Timeline";
-import BadgeGenerator from "./pages/BadgeGenerator";
 import GetInvolved from "./pages/GetInvolved";
 
 const AceLogo = (prop) => {
@@ -49,7 +48,8 @@ const App = () => {
       <div className="wrapper bg-gray-900">
         <BrowserRouter>
           <Routes>
-            <Route path="/" 
+            <Route
+              path="/"
               element={
                 <div>
                   <Navbar />

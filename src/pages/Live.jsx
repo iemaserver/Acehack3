@@ -3,19 +3,29 @@ import CountdownTimer from "../components/Timer";
 
 // TODO: update the schedule
 const schedule = [
-  ["2024-04-06T10:00:00", "10:00:00", "Check-In"],
-  ["2024-04-06T12:00:00", "12:00:00", "Hackathon Begins!"],
-  ["2024-04-06T13:00:00", "13:00:00", "Lunch"],
-  ["2024-04-06T15:00:00", "15:00:00", "Workshop (Postman)"],
-  ["2024-04-06T16:30:00", "16:30:00", "Mentoring Session"],
-  ["2024-04-06T18:00:00", "18:00:00", "Snacks"],
-  ["2024-04-06T21:30:00", "21:30:00", "Dinner"],
-  ["2024-04-06T23:00:00", "23:00:00", "Mentoring Session"],
-  ["2024-04-06T00:00:00", "00:00:00", "Fun Games + Coffee"],
-  ["2024-04-07T09:00:00", "09:00:00", "Breakfast"],
-  ["2024-04-07T11:00:00", "11:00:00", "Final Mentoring Session"],
-  ["2024-04-07T12:40:00", "12:40:00", "Hack Ends!"],
-  ["2024-04-07T15:00:00", "15:00:00", "Prizes + Closing Ceremony"],
+  ["2024-04-06T09:30:00", "Check-in Starts"],
+  ["2024-04-06T11:00:00", "Opening Ceremony"],
+  ["2024-04-06T11:30:00", "Rajasthan Police Session"],
+  ["2024-04-06T12:00:00", "Hackathon Begins!"],
+  ["2024-04-06T13:30:00", "Lunch"],
+  ["2024-04-06T14:30:00", "Nordek Session"],
+  ["2024-04-06T15:30:00", "Orkes Session"],
+  ["2024-04-06T16:10:00", "HackQuest Session"],
+  ["2024-04-06T18:30:00", "FunZone Opens"],
+  ["2024-04-06T19:30:00", "Tech Talk by Sunchit Dudeja"],
+  ["2024-04-06T20:30:00", "Dinner + AceHack 3.0 UnPlugged"],
+  ["2024-04-06T23:30:00", "Tech Talk by Aryan Singh"],
+  ["2024-04-07T00:30:00", "Mentoring Round 1"],
+  ["2024-04-07T01:00:00", "Midnight Snacks"],
+  ["2024-04-07T01:30:00", "Midnight Games"],
+  ["2024-04-07T08:00:00", "Pulse Pump"],
+  ["2024-04-07T08:30:00", "Breakfast"],
+  ["2024-04-07T09:30:00", "Mentoring Round 2"],
+  ["2024-04-07T13:00:00", "Project Submission (Devfolio)"],
+  ["2024-04-07T13:30:00", "Lunch"],
+  ["2024-04-07T14:30:00", "Judging Starts"],
+  ["2024-04-07T18:00:00", "Closing Ceremony"],
+  ["2024-04-07T19:00:00", "Bus Return"],
 ];
 
 const Live = () => {
@@ -59,15 +69,15 @@ const Live = () => {
           </h1>
           <p>Happening Now</p>
           <h1 className="text-5xl font-bold pt-2 pb-12 grad-text">
-            {schedule[currentEvent][2]}
+            {schedule[currentEvent][1]}
           </h1>
           <p>Next</p>
           <div className="flex flex-row items-center">
             <div className="text-5xl font-bold pt-2 pb-2 pr-4 grad-text border-0 md:border-r-2 border-gray-300">
-              {schedule[currentEvent + 1][2]}
+              {schedule[currentEvent + 1][1]}
             </div>
             <div className="text-5xl font-semibold pt-2 pb-2 pl-4">
-              {schedule[currentEvent + 1][1].slice(0, 5)}
+              {schedule[currentEvent + 1][0].slice(0, 5)}
             </div>
           </div>
         </div> */}
