@@ -64,7 +64,7 @@ const App = () => {
                   {/* <GetInvolved /> */}
                   <Sponsor />
                   <Past />
-                  {/* <Speakers /> */}
+                  <Speakers />
                   <Faculty />
                   {/* <Why /> */}
                   <AddressMap />
