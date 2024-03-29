@@ -321,7 +321,7 @@ const Speakers = () => {
             }
             // role="Mentor, Judge"
           />
-          <Member
+          {/* <Member
             image={shyamal}
             name="Shyamal Tripathi"
             // social={
@@ -334,8 +334,8 @@ const Speakers = () => {
             //   </a>
             // }
             role="Hackquest"
-          />
-          <Member
+          /> */}
+          {/* <Member
             image={raajessh}
             name="Rajeesh Kaashyap"
             // social={
@@ -348,7 +348,7 @@ const Speakers = () => {
             //   </a>
             // }
             role="Nordek"
-          />
+          /> */}
           <Member
             image={maninder}
             name="Maninder Singh"
