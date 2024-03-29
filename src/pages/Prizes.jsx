@@ -18,7 +18,7 @@ const Prizes = () => {
           <h1 className="grad-text text-5xl font-bold">Prizes</h1>
         </div>
         <div className="text-center mb-10">
-          <h1 className="text-[50px] md:text-[65px] font-bold">25,00,000+ INR</h1>
+          <h1 className="text-[50px] md:text-[65px] font-bold">30,00,000+ INR</h1>
           <p className="text-[30px] md:text-[40px] font-[600]">Worth of Prize Pool</p>
         </div>
         <div className="flex flex-row flex-wrap mx-4 md:mx-10 gap-[75px] 2xl:gap-x-[7%] justify-center mt-10">
