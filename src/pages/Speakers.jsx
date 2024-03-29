@@ -3,7 +3,7 @@ import Member from "../components/Member";
 
 import abdallalit from "/public/assets/images/mentors3/abdal lalit.jpeg";
 import abhinavrai from "/public/assets/images/mentors3/abhinav rai.jpeg";
-import abhinav from "/public/assets/images/mentors3/abhinav.jpeg";
+import abhinav from "/public/assets/images/mentors3/Abhinav.jpeg";
 import ayonroy from "/public/assets/images/mentors3/ayon roy.jpeg";
 import chhavi from "/public/assets/images/mentors3/chhavi.jpeg";
 import chinmay from "/public/assets/images/mentors3/chinmay.jpeg";
