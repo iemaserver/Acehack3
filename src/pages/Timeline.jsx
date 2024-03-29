@@ -22,14 +22,14 @@ const Timeline = () => {
 
     const events2 = [
         // Day 2
-        { direction: "right", time: "08:00 AM", heading: "Pulse Pump" },
-        { direction: "left", time: "08:30 AM", heading: "Breakfast" },
-        { direction: "right", time: "09:30 AM", heading: "Mentoring Round 2" },
-        { direction: "left", time: "01:00 PM", heading: "Hackathon Submission (Devfolio)" },
-        { direction: "right", time: "01:30 PM", heading: "Lunch" },
-        { direction: "left", time: "02:30 PM", heading: "Judging Starts" },
-        { direction: "right", time: "06:00 PM", heading: "Closing Ceremony" },
-        { direction: "left", time: "07:00 PM", heading: "Bus Return" }
+        { direction: "left", time: "08:00 AM", heading: "Pulse Pump" },
+        { direction: "right", time: "08:30 AM", heading: "Breakfast" },
+        { direction: "left", time: "09:30 AM", heading: "Mentoring Round 2" },
+        { direction: "right", time: "01:00 PM", heading: "Hackathon Submission (Devfolio)" },
+        { direction: "left", time: "01:30 PM", heading: "Lunch" },
+        { direction: "right", time: "02:30 PM", heading: "Judging Starts" },
+        { direction: "left", time: "06:00 PM", heading: "Closing Ceremony" },
+        { direction: "right", time: "07:00 PM", heading: "Bus Return" }
     ];
 
   return (
