@@ -29,7 +29,7 @@ const Timeline = () => {
         { direction: "right", time: "01:30 PM", heading: "Lunch" },
         { direction: "left", time: "02:30 PM", heading: "Judging Starts" },
         { direction: "right", time: "06:00 PM", heading: "Closing Ceremony" },
-        { direction: "left", time: "07:00 PM", heading: "Bus (Return)" }
+        { direction: "left", time: "07:00 PM", heading: "Bus Return" }
     ];
 
   return (
