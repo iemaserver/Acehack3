@@ -37,7 +37,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Speakers = () => {
   return (
-    <div className="relative items-center justify-center bg-gray-900/30 backdrop-blur-lg w-full z-20 py-10 scroll-smooth">
+    <div id="speaker" className="relative items-center justify-center bg-gray-900/30 backdrop-blur-lg w-full z-20 py-10 scroll-smooth">
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="flex flex-row justify-center w-full">
           <h1 className="grad-text font-bold text-5xl mb-10 text-center">Mentors & Judges</h1>

@@ -2,6 +2,8 @@ import React from "react";
 import Icon from "../components/Icon";
 
 import { IconContext } from "react-icons";
+import { SiLinktree } from "react-icons/si";
+
 import {
   FaInstagram,
   FaLinkedinIn,
@@ -26,10 +28,13 @@ const Footer = () => {
           <div className="flex flex-col sm:justify-between gap-6">
             <p className="text-2xl">Follow Us</p>
             <div className="flex gap-5">
-              <a href="https://www.instagram.com/acehack3.0/">
+              <a href="https://linktr.ee/acehack3/" target={"_blank"}>
+                <SiLinktree />
+              </a>
+              <a href="https://www.instagram.com/acehack3.0/" target={"_blank"}>
                 <FaInstagram />
               </a>
-              <a href="https://www.linkedin.com/company/acehack-3-0/">
+              <a href="https://www.linkedin.com/company/acehack-3-0/" target={"_blank"}>
                 <FaLinkedinIn />
               </a>
               <a href="https://twitter.com/AceHack_uemj" target={"_blank"}>
