@@ -1,35 +1,36 @@
 import React from "react";
 import Member from "../components/Member";
+import { FaXTwitter } from "react-icons/fa6";
 
-import abdallalit from "/public/assets/images/mentors3/abdal lalit.jpeg";
-import abhinavrai from "/public/assets/images/mentors3/abhinav rai.jpeg";
-import abhinav from "/public/assets/images/mentors3/Abhinav.jpeg";
-import ayonroy from "/public/assets/images/mentors3/ayon roy.jpeg";
-import chhavi from "/public/assets/images/mentors3/chhavi.jpeg";
-import chinmay from "/public/assets/images/mentors3/chinmay.jpeg";
-import devendra from "/public/assets/images/mentors3/devendra.jpeg";
-import gurkirat from "/public/assets/images/mentors3/gurkirat.jpeg";
-import jaskaran from "/public/assets/images/mentors3/jaskaran.jpeg";
-import manav from "/public/assets/images/mentors3/manav.jpeg";
-import himani from "/public/assets/images/mentors3/himani.jpeg";
-import pankaj from "/public/assets/images/mentors3/pankaj.jpeg";
-import pranav from "/public/assets/images/mentors3/pranav.jpeg";
-import maninder from "/public/assets/images/mentors3/Maninder.jpeg";
-import raajessh from "/public/assets/images/mentors3/raajessh.jpg";
-import rishabh from "/public/assets/images/mentors3/rishabh.jpeg";
-import rishika from "/public/assets/images/mentors3/Rishika.jpeg";
-import rohan from "/public/assets/images/mentors3/rohan.jpeg";
-import shambhavi from "/public/assets/images/mentors3/shambhavi.jpeg";
-import shivam from "/public/assets/images/mentors3/shivam.jpeg";
-// import srishti from "/public/assets/images/mentors3/srishti.jpeg";
-import srishti from "/public/assets/images/mentors3/srishti.jpg";
-import aryan from "/public/assets/images/mentors3/aryan.jpeg";
-import shyamal from "/public/assets/images/mentors3/shyamal.jpeg";
-import sounak from "/public/assets/images/mentors3/sounak.jpeg";
-import sunchit from "/public/assets/images/mentors3/sunchit.jpeg";
-import abhimanyu from "/public/assets/images/mentors3/abhimanyu.jpeg";
-import chanpreet from "/public/assets/images/mentors3/chanpreet.jpeg";
-import piyush from "/public/assets/images/mentors3/piyush.jpeg";
+import abdallalit from "/assets/images/mentors3/abdal lalit.jpeg";
+import abhinavrai from "/assets/images/mentors3/abhinav rai.jpeg";
+import abhinav from "/assets/images/mentors3/Abhinav.jpeg";
+import ayonroy from "/assets/images/mentors3/ayon roy.jpeg";
+import chhavi from "/assets/images/mentors3/chhavi.jpeg";
+import chinmay from "/assets/images/mentors3/chinmay.jpeg";
+import devendra from "/assets/images/mentors3/devendra.jpeg";
+import gurkirat from "/assets/images/mentors3/gurkirat.jpeg";
+import jaskaran from "/assets/images/mentors3/jaskaran.jpeg";
+import manav from "/assets/images/mentors3/manav.jpeg";
+import himani from "/assets/images/mentors3/himani.jpeg";
+import pankaj from "/assets/images/mentors3/pankaj.jpeg";
+import pranav from "/assets/images/mentors3/pranav.jpeg";
+import maninder from "/assets/images/mentors3/Maninder.jpeg";
+import raajessh from "/assets/images/mentors3/raajessh.jpg";
+import rishabh from "/assets/images/mentors3/rishabh.jpeg";
+import rishika from "/assets/images/mentors3/Rishika.jpeg";
+import rohan from "/assets/images/mentors3/rohan.jpeg";
+import shambhavi from "/assets/images/mentors3/shambhavi.jpeg";
+import shivam from "/assets/images/mentors3/shivam.jpeg";
+// import srishti from "/assets/images/mentors3/srishti.jpeg"; //from linkedin
+import srishti from "/assets/images/mentors3/srishti.jpg";
+import aryan from "/assets/images/mentors3/aryan.jpeg";
+import shyamal from "/assets/images/mentors3/shyamal.jpeg";
+import sounak from "/assets/images/mentors3/sounak.jpeg";
+import sunchit from "/assets/images/mentors3/sunchit.jpeg";
+import abhimanyu from "/assets/images/mentors3/abhimanyu.jpeg";
+import chanpreet from "/assets/images/mentors3/chanpreet.jpeg";
+import piyush from "/assets/images/mentors3/piyush.jpeg";
 
 
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -39,7 +40,7 @@ const Speakers = () => {
     <div className="relative items-center justify-center bg-gray-900/30 backdrop-blur-lg w-full z-20 py-10 scroll-smooth">
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
         <div className="flex flex-row justify-center w-full">
-          <h1 className="grad-text font-bold text-5xl mb-10">Mentors & Judges</h1>
+          <h1 className="grad-text font-bold text-5xl mb-10 text-center">Mentors & Judges</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Member
@@ -100,7 +101,7 @@ const Speakers = () => {
           />
           <Member
             image={abhinav}
-            name="Abhinav S."
+            name="Abhinav Sharma"
             social={
               <a
                 href="https://www.linkedin.com/in/abhinavsharma0/"
@@ -324,7 +325,7 @@ const Speakers = () => {
             }
             // role="Mentor, Judge"
           />
-          {/* <Member
+          <Member
             image={shyamal}
             name="Shyamal Tripathi"
             // social={
@@ -337,21 +338,23 @@ const Speakers = () => {
             //   </a>
             // }
             role="Hackquest"
-          /> */}
-          {/* <Member
+          />
+          <Member
             image={raajessh}
-            name="Rajeesh Kaashyap"
-            // social={
-            //   <a
-            //     href="#"
-            //     className="text-2xl text-gray-400 pb-1"
-            //     target={"_blank"}
-            //   >
-            //     <FaLinkedin />
-            //   </a>
-            // }
-            role="Nordek"
-          /> */}
+            name="Raajessh kashyap"
+            social={
+              <a
+                href="https://twitter.com/Raajesshks"
+                className="text-2xl text-gray-400 pb-1"
+                target={"_blank"}
+              >
+                {/* <FaLinkedin /> */}
+                <FaXTwitter />
+
+              </a>
+            }
+            role="CEO & Co-Founder @ Nordek"
+          />
           <Member
             image={maninder}
             name="Maninder Singh"
@@ -382,7 +385,7 @@ const Speakers = () => {
           />
           <Member
             image={devendra}
-            name="Devendra P."
+            name="Devendra Parihar"
             social={
               <a
                 href="https://www.linkedin.com/in/devendra-parihar/"

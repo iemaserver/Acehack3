@@ -21,6 +21,9 @@ import Live from "./pages/Live";
 import Timeline from "./pages/Timeline";
 import GetInvolved from "./pages/GetInvolved";
 
+import { ChakraProvider } from '@chakra-ui/react'
+
+
 const AceLogo = (prop) => {
   return (
     <div>
