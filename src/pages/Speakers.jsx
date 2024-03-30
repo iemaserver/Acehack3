@@ -72,6 +72,22 @@ const Speakers = () => {
             // role="Mentor & Judge"
           />
           <Member
+            image={raajessh}
+            name="Raajessh kashyap"
+            social={
+              <a
+                href="https://twitter.com/Raajesshks"
+                className="text-2xl text-gray-400 pb-1"
+                target={"_blank"}
+              >
+                {/* <FaLinkedin /> */}
+                <FaXTwitter />
+
+              </a>
+            }
+            role="CEO & Co-Founder @ Nordek"
+          />
+          <Member
             image={abdallalit}
             name="Abdal Lalit"
             social={
@@ -339,22 +355,7 @@ const Speakers = () => {
             // }
             role="Hackquest"
           />
-          <Member
-            image={raajessh}
-            name="Raajessh kashyap"
-            social={
-              <a
-                href="https://twitter.com/Raajesshks"
-                className="text-2xl text-gray-400 pb-1"
-                target={"_blank"}
-              >
-                {/* <FaLinkedin /> */}
-                <FaXTwitter />
-
-              </a>
-            }
-            role="CEO & Co-Founder @ Nordek"
-          />
+          
           <Member
             image={maninder}
             name="Maninder Singh"
