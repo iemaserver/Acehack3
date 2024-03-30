@@ -341,7 +341,7 @@ const Speakers = () => {
           />
           <Member
             image={raajessh}
-            name="Rajeesh Kaashyap"
+            name="Raajessh kashyap"
             social={
               <a
                 href="https://twitter.com/Raajesshks"
@@ -353,7 +353,7 @@ const Speakers = () => {
 
               </a>
             }
-            role="Nordek"
+            role="CEO & Co-Founder @ Nordek"
           />
           <Member
             image={maninder}
