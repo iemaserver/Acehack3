@@ -22,6 +22,7 @@ import polygon from "/assets/images/newSponsors/polygon-logo.svg";
 import archway from "/assets/images/newSponsors/archway.png";
 import aptos from "/assets/images/newSponsors/aptos.svg";
 import stellar from "/assets/images/newSponsors/stellar.svg";
+import risein from "/assets/images/newSponsors/resein.svg";
 import nordekgenesis from "/assets/images/newSponsors/NordekGenesis.png";
 // import polygon from "/assets/images/sponsors/polygon.png";
 
@@ -202,6 +203,16 @@ const Sponsor = () => {
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
           <a href="https://www.quillaudits.com/" target={"_blank"}>
             <Icon icon={quillaudit} height="h-28" />
+          </a>
+        </div>
+        {/* Web3 Education Partner */}
+
+        <h1 className="text-5xl font-bold py-10 ">
+          <span className="grad-text">Web3</span> Education Partner
+        </h1>
+        <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
+          <a href="https://www.risein.com/" target={"_blank"}>
+            <Icon icon={risein} height="h-28 bg-white px-8 py-2" />
           </a>
         </div>
 
