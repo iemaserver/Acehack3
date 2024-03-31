@@ -33,7 +33,7 @@ const Timeline = () => {
     ];
 
   return (
-    <div className="z-20 relative bg-purple-300 flex flex-col gap-y-3 w-full  bg-gradient-to-bl from-gray-900 via-purple-950 to-purple-900  ">
+    <div id="timeline" className="z-20 relative bg-purple-300 flex flex-col gap-y-3 w-full  bg-gradient-to-bl from-gray-900 via-purple-950 to-purple-900  ">
       <div className="flex justify-center mt-20">
         <h1 className="grad-text text-5xl font-bold text-center">Hackathon Timeline</h1><br />
       </div>

@@ -2,8 +2,10 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Navbarr from "./components/Navbarr";
 import About from "./pages/About";
 import Past from "./pages/Past";
+import Swag from "./pages/Swag";
 import Themes from "./pages/Themes";
 import TeamSection from "./pages/TeamSection";
 import Footer from "./pages/Footer";
@@ -62,6 +64,7 @@ const App = () => {
                   <Themes />
                   <Why />
                   <Prizes />
+                  <Swag />
                   {/* <BadgeGenerator /> */}
                   {/* <Referal /> */}
                   {/* <GetInvolved /> */}
@@ -81,6 +84,15 @@ const App = () => {
                 <AceLogo>
                   <TeamSection />
                 </AceLogo>
+              }
+            />
+            <Route
+              path="/digitalswags"
+              element={
+                <div>
+                  <Navbarr />
+                  <Swag />
+                </div>
               }
             />
             <Route

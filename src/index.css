@@ -7,9 +7,6 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-.faq-ans{
-
-}
 .h4:has(.faq-ans) {
   /* padding: 0.25rem 0.5rem; */
   background-color: #6c3c9d;
@@ -47,6 +44,8 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: fit-content;
+    height: 110px;
   }
 }
 
