@@ -61,10 +61,10 @@ const App = () => {
                   <Home />
                   <About />
                   <Timeline />
+                  <Swag />
                   <Themes />
                   <Why />
                   <Prizes />
-                  <Swag />
                   {/* <BadgeGenerator /> */}
                   {/* <Referal /> */}
                   {/* <GetInvolved /> */}

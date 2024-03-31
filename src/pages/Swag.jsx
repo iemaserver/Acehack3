@@ -1,6 +1,3 @@
-
-
-
 // import React, { useState, useRef, useEffect } from "react";
 // import template from "/assets/images/swag/sample.png";
 // import pengu from "/assets/images/swag/pengu.png";
@@ -139,7 +136,6 @@
 //   templateImage.src = template;
 // };
 
-
 //   return (
 //     <div className=" min-h-[100vh] flex items-center py-12 relative bg-gradient-to-br from-gray-900 via-purple-950 to-gray-900 text-white">
 //       <div className="container mx-auto px-4 md:px-0">
@@ -169,7 +165,7 @@
 //             </div>
 //             <div className="flex flex-col  md:justify-between">
 //               <div className="flex gap-4">
-              
+
 //               <input
 //                 type="text"
 //                 value={name}
@@ -177,7 +173,7 @@
 //                 placeholder="Enter Your Name"
 //                 className="rounded-sm border-none w-full border-white bg-purple-800 px-4 py-2 text-white text-lg mb-3 md:mb-0 "
 //               />
-              
+
 //               </div>
 //               <div className="flex justify-end my-3 gap-5">
 //                 <input
@@ -206,19 +202,6 @@
 // };
 
 // export default Swag;
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React, { useState, useRef, useEffect } from "react";
 // import template from "/assets/images/swag/sample.png";
@@ -389,22 +372,6 @@
 // };
 
 // export default Swag;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React, { useState, useRef, useEffect } from "react";
 // import template from "/assets/images/swag/sample.png";
@@ -588,22 +555,6 @@
 // };
 
 // export default Swag;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React, { useState, useRef, useEffect } from "react";
 // import template from "/assets/images/swag/sample400x500.png";
@@ -807,35 +758,6 @@
 
 // export default Swag;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import React, { useState, useRef, useEffect } from "react";
 // // import template from "/assets/images/swag/sample400x500.png";
 // import template from "/assets/images/swag/sample.png";
@@ -1038,26 +960,6 @@
 
 // export default Swag;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState, useRef, useEffect } from "react";
 import template from "/assets/images/swag/sample400x500.png";
 // import template from "/assets/images/swag/sample.png";
@@ -1111,15 +1013,25 @@ const Swag = () => {
     // Get the canvas element
     const canvas = canvasRef.current;
     // Create a temporary canvas element with higher resolution
-    const tempCanvas = document.createElement('canvas');
-    const tempCtx = tempCanvas.getContext('2d');
+    const tempCanvas = document.createElement("canvas");
+    const tempCtx = tempCanvas.getContext("2d");
     const scaleFactor = 2; // Increase the scale factor for higher resolution
 
     tempCanvas.width = canvas.width * scaleFactor;
     tempCanvas.height = canvas.height * scaleFactor;
 
     // Draw image on temporary canvas
-    tempCtx.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, tempCanvas.width, tempCanvas.height);
+    tempCtx.drawImage(
+      canvas,
+      0,
+      0,
+      canvas.width,
+      canvas.height,
+      0,
+      0,
+      tempCanvas.width,
+      tempCanvas.height
+    );
 
     // Convert temporary canvas to data URL with higher quality
     const dataURL = tempCanvas.toDataURL("image/png", 1.0);
@@ -1162,7 +1074,17 @@ const Swag = () => {
           sy = (uploadedImage.height - sHeight) / 2;
         }
 
-        ctx.drawImage(uploadedImage, sx, sy, sWidth, sHeight, 0, 0, canvas.width, canvas.height);
+        ctx.drawImage(
+          uploadedImage,
+          sx,
+          sy,
+          sWidth,
+          sHeight,
+          0,
+          0,
+          canvas.width,
+          canvas.height
+        );
       };
       uploadedImage.src = image.src;
     } else {
@@ -1178,33 +1100,51 @@ const Swag = () => {
       ctx.drawImage(templateImage, 0, 0, canvas.width, canvas.height);
 
       // Draw the name text
-      ctx.font = "bold 25px Arial";
+      ctx.font = "bold 50px Arial";
       ctx.fillStyle = "white";
       ctx.textAlign = "center";
       ctx.fillText(
         name || "Hey, I'm Pengu",
         canvas.width / 2,
-        canvas.height - 68
+        canvas.height - 158
       );
     };
     templateImage.src = template;
   };
 
   return (
-    <div id="digitalswags" className=" min-h-[100vh] flex items-center py-12 relative bg-gradient-to-br from-gray-900 via-purple-950 to-gray-900 text-white">
+    <div
+      id="digitalswags"
+      className=" min-h-[100vh] flex items-center py-12 relative bg-gradient-to-br from-gray-900 via-purple-950 to-gray-900 text-white"
+    >
       <div className="container mx-auto px-4 md:px-0">
         <div className="flex flex-row justify-center mb-6">
-          <h1 className="grad-text text-5xl font-bold">Get Your Digital Swag</h1>
+          <h1 className="grad-text text-5xl font-bold">
+            Get Your Digital Swag
+          </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center xl:mx-40">
-          <div className="flex justify-center mb-5 md:mb-0 -10">
-            <canvas
+          <div className="flex w-[90%] md:w-[80%] justify-center mb-5 md:mb-0 -10">
+            {/* <canvas
               ref={canvasRef}
-              width={400} // Set width of canvas (adjust as needed)
-              height={500} // Set height of canvas (adjust as needed)
+              width={2000} // Set width of canvas (adjust as needed)
+              height={2500} // Set height of canvas (adjust as needed)
               style={{ display: "block", position: "relative" }}
               className="rounded-sm border-4 border-[#05002582] bg-purple-800"
-            ></canvas>
+            ></canvas> */}
+            <div className="md:w-[80%]" style={{  /* Adjust the percentage as needed */ }}>
+              <canvas
+                ref={canvasRef}
+                width={900} // Set width of canvas (adjust as needed)
+                height={1125} // Set height of canvas (adjust as needed)
+                style={{
+                  display: "block",
+                  position: "relative",
+                  width: "100%",
+                }}
+                className="rounded-sm border-4 border-[#05002582] bg-purple-800"
+              ></canvas>
+            </div>
             <img
               ref={defaultAvatarRef}
               src={defaultAvatar}
@@ -1213,14 +1153,43 @@ const Swag = () => {
             />
           </div>
 
-          <div className="md:w-1/2 lg:w-2/3 flex flex-col justify-between md:ml-10 ">
+          <div className="md:w-1/2 w-[90%] lg:w-2/3 flex flex-col justify-between md:ml-10 ">
             <div className="text-md lg:text-xl font-mono text-center md:text-left mb-2 lg:mb-5">
-              <div className="heading flex justify-center">
-                <h2 className="lg:text-4xl text-3xl grad-text font-bold -mb-16 md:-mb-8">AceHack 3.0 Digital Badge</h2>
+              <div className="heading flex justify-center mb-10">
+                <h2 className="lg:text-4xl text-3xl grad-text font-bold -mb-16 md:-mb-8">
+                  AceHack 3.0 Digital Badge
+                </h2>
               </div>
-              <p className="lg:mb-3 mb-1">Ready to rock AceHack 3.0? Show the world your excitement with our exclusive digital badge!</p>
-              <p className="lg:mb-3 mb-1">Personalize your AceHack 3.0 Badge with your name and photo. Download it and spread the word on social media using  <a className=" underline hover:text-purple-300" target="_blank" href="https://twitter.com/search?q=%23acehack">#AceHack</a> and tagging <a className=" underline hover:text-purple-300" target="_blank" href="https://twitter.com/AceHack_uemj">@AceHack_uemj</a>.</p>
-              <p className="text-sm lg:mb-3 mb-1 text-green-300"><i>*Your privacy matters! We never store your images on our servers.</i></p>
+              <p className="lg:mb-3 mb-1">
+                Ready to rock AceHack 3.0? Show the world your excitement with
+                our exclusive digital badge!
+              </p>
+              <p className="lg:mb-3 mb-1">
+                Personalize your AceHack 3.0 Badge with your name and photo.
+                Download it and spread the word on social media using{" "}
+                <a
+                  className=" underline hover:text-purple-300"
+                  target="_blank"
+                  href="https://twitter.com/search?q=%23acehack"
+                >
+                  #AceHack
+                </a>{" "}
+                and tagging{" "}
+                <a
+                  className=" underline hover:text-purple-300"
+                  target="_blank"
+                  href="https://twitter.com/AceHack_uemj"
+                >
+                  @AceHack_uemj
+                </a>
+                .
+              </p>
+              <p className="text-sm lg:mb-3 mb-1 text-green-300">
+                <i>
+                  *Your privacy matters! We never store your images on our
+                  servers.
+                </i>
+              </p>
             </div>
             <div className="flex flex-col  md:justify-between">
               <div className="flex gap-4">
@@ -1232,7 +1201,7 @@ const Swag = () => {
                   className="rounded-sm border-none w-full border-white bg-purple-800 px-4 py-2 text-white text-lg mb-3 md:mb-0 "
                 />
               </div>
-              <div className="flex justify-end my-3 gap-5">
+              <div className="flex flex-col md:flex-row justify-end my-3 gap-5">
                 <input
                   type="file"
                   accept="image/*"
@@ -1240,15 +1209,25 @@ const Swag = () => {
                   ref={imageInputRef}
                   style={{ display: "none" }}
                 />
-                <button onClick={() => imageInputRef.current.click()} className="">
+                <button
+                  onClick={() => imageInputRef.current.click()}
+                  className=""
+                >
                   <FancyButton data="Upload your photo" id="upload" />
                 </button>
                 <button onClick={handleDownloadSwag}>
                   <FancyButton data="Download" id="download" />
                 </button>
-                <a href="https://ctt.ac/V14kb" target="_blank" rel="noopener noreferrer">
+                <button>
+                <a
+                  href="https://ctt.ac/52bJ8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FancyButton data="Share" id="share" />
                 </a>
+                </button>
+                
               </div>
             </div>
           </div>
