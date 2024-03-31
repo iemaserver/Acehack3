@@ -73,7 +73,7 @@ const Speakers = () => {
           />
           <Member
             image={raajessh}
-            name="Raajessh kashyap"
+            name="Raajessh Kashyap"
             social={
               <a
                 href="https://twitter.com/Raajesshks"
