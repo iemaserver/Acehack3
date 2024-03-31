@@ -7,6 +7,8 @@ const FancyButton = (props) => {
       document.documentElement.scroll({ top: 0, behavior: "smooth" });
     } else if (props.id === "register") {
       window.open("https://acehack-3.devfolio.co/", "_blank");
+    }else if (props.id === "digitalswags") {
+      window.open("/digitalswags", "_blank");
     }else if (props.id === "CTF") {
       window.open("https://techonquer.org/registration-1/", "_blank");
     } else if (element) {
