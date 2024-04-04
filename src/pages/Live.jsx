@@ -1,5 +1,6 @@
 import React from "react";
 import CountdownTimer from "../components/Timer";
+import wall from "../wall.html";
 
 // TODO: update the schedule
 const schedule = [
@@ -83,8 +84,12 @@ const Live = () => {
         </div> */}
         <div className="w-full md:w-4/6">
           <iframe
-            src="https://widget.taggbox.com/152726"
-            style={{ width: "100%", height: "600px", border: "none" }}
+            className="w-full h-[70vh]"
+            allowfullscreen
+            id="wallsio-iframe"
+            src={wall}
+            loading="lazy"
+            title="My social wall"
           ></iframe>
         </div>
       </div>

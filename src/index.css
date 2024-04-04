@@ -135,6 +135,24 @@ height: 20rem;
 	}
 }
 
+.shining-text {
+  background: linear-gradient(90deg, #4e0eb1, #8232eb, #a44aff, #b53cfe, #cc28fd,  #d700e6, #f765ff, #d700e6, #cc28fd, #b53cfe, #a44aff, #8232eb, #4e0eb1);
+  background-size: 200% 200%;
+  color: transparent;
+  background-clip: text;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: -100% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  
+}
+
 
 /*  */
 

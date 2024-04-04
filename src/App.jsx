@@ -23,8 +23,7 @@ import Live from "./pages/Live";
 import Timeline from "./pages/Timeline";
 import GetInvolved from "./pages/GetInvolved";
 
-import { ChakraProvider } from '@chakra-ui/react'
-
+import { ChakraProvider } from "@chakra-ui/react";
 
 const AceLogo = (prop) => {
   return (
@@ -40,6 +39,9 @@ const AceLogo = (prop) => {
               className="hidden lg:block object-contain"
             />
           </a>
+          <p className="text-7xl font-bold mr-4 text-white shining-text">
+            Innovate - Elevate - Transform
+          </p>
         </div>
       </div>
       {prop.children}
