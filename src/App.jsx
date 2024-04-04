@@ -21,9 +21,6 @@ import AddressMap from "./pages/map";
 import AceHackSm from "/assets/images/website-v2.svg";
 import Live from "./pages/Live";
 import Timeline from "./pages/Timeline";
-import GetInvolved from "./pages/GetInvolved";
-
-import { ChakraProvider } from "@chakra-ui/react";
 
 const AceLogo = (prop) => {
   return (
@@ -31,15 +28,15 @@ const AceLogo = (prop) => {
       <div
         className={`bg-gray-900/30 w-full sticky top-0 z-30 backdrop-blur-md md:h-auto h-32`}
       >
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center h-40">
           <a href="/">
             <img
               src={AceHackSm}
               alt="AceHack3.0"
-              className="hidden lg:block object-contain"
+              className="hidden lg:block object-contain h-40"
             />
           </a>
-          <p className="text-7xl font-bold mr-4 text-white shining-text">
+          <p className="text-4xl lg:text-6xl font-bold mr-4 text-white shining-text">
             Innovate - Elevate - Transform
           </p>
         </div>

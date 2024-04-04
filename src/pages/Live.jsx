@@ -1,6 +1,6 @@
 import React from "react";
 import CountdownTimer from "../components/Timer";
-import wall from "../wall.html";
+import wall from "../wall.html?special";
 
 // TODO: update the schedule
 const schedule = [
