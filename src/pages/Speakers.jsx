@@ -86,8 +86,8 @@ const Speakers = () => {
                 className="text-2xl text-gray-400 pb-1"
                 target={"_blank"}
               >
-                {/* <FaLinkedin /> */}
-                <FaXTwitter />
+                <FaLinkedin />
+                {/* <FaXTwitter /> */}
 
               </a>
             }
