@@ -14,10 +14,10 @@ const Timeline = () => {
     { direction: "right", time: "06:30 PM", heading: "FunZone Opens" },
     { direction: "left", time: "07:30 PM", heading: "Tech Talk by Sunchit Dudeja" }, // Added event
     { direction: "right", time: "08:30 PM", heading: "Dinner + AceHack 3.0 UnPlugged" },
-    { direction: "left", time: "11:30 PM", heading: "Tech Talk by Aryan Singh" }, // Updated time1
-    { direction: "right", time: "12:30 AM", heading: "Mentoring Round 1" },
-    { direction: "left", time: "01:00 AM", heading: "Midnight Snacks" },
-    { direction: "right", time: "01:30 AM", heading: "Midnight Games" },
+    // { direction: "left", time: "11:30 PM", heading: "Tech Talk by Aryan Singh" }, // Updated time1
+    { direction: "left", time: "12:30 AM", heading: "Mentoring Round 1" },
+    { direction: "right", time: "01:00 AM", heading: "Midnight Snacks" },
+    { direction: "left", time: "01:30 AM", heading: "Midnight Games" },
 ];
 
     const events2 = [

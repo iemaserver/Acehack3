@@ -13,6 +13,7 @@ import echo3D from "/assets/images/sponsors/echo3D.png";
 import sticker_mule from "/assets/images/sponsors/sticker_mule.png";
 import wolfram from "/assets/images/sponsors/Wolfram.jpg";
 import devfolio from "/assets/images/newSponsors/devfolio.svg";
+import ctf from "/assets/images/newSponsors/YCF-1.png";
 import rj from "/assets/images/newSponsors/rj.png";
 // import devfolio from "/assets/images/sponsors/devfolio.png";
 import replit from "/assets/images/sponsors/replit.png";
@@ -224,6 +225,11 @@ const Sponsor = () => {
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
           <a href="https://devfolio.co/discover" target={"_blank"}>
             <Icon icon={devfolio} height="h-28 p-5" />
+          </a>
+        </div>
+        <div className="flex flex-row flex-wrap w-4/5 justify-center items-center">
+          <a href="https://ycfteam.in/" target={"_blank"}>
+            <Icon icon={ctf} height="h-28 p-3" />
           </a>
         </div>
 
