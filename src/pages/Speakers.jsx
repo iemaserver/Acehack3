@@ -35,6 +35,9 @@ import praveen from "/assets/images/mentors3/praveen.jpeg";
 import pawan from "/assets/images/mentors3/pawan.jpg";
 import nitesh from "/assets/images/mentors3/nitesh.jpg";
 import anchal from "/assets/images/mentors3/anchal.jpeg";
+import sri from "/assets/images/mentors3/sri.jpeg";
+import hargovind from "/assets/images/mentors3/hargovind.jpeg";
+
 
 
 
@@ -455,6 +458,34 @@ const Speakers = () => {
             image={nitesh}
             name="Nitesh aka linuxroid"
             role="Cyber security expert (CTF Mentor)"
+          />
+          <Member
+            image={sri}
+            name="Srividhya S Subramanian"
+            social={
+              <a
+                href="https://www.linkedin.com/in/sri-vidhya-s/"
+                className="text-2xl text-gray-400 pb-1"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+            // role="Nordek"
+          />
+          <Member
+            image={hargovind}
+            name="Hargovind Bansal"
+            social={
+              <a
+                href="https://www.linkedin.com/in/hargovind-bansal-3783ba41/"
+                className="text-2xl text-gray-400 pb-1"
+                target={"_blank"}
+              >
+                <FaLinkedin />
+              </a>
+            }
+            // role="Nordek"
           />
           {/* <Member
             image={sounak}
