@@ -31,6 +31,12 @@ import sunchit from "/assets/images/mentors3/sunchit.jpeg";
 import abhimanyu from "/assets/images/mentors3/abhimanyu.jpeg";
 import chanpreet from "/assets/images/mentors3/chanpreet.jpeg";
 import piyush from "/assets/images/mentors3/piyush.jpeg";
+import praveen from "/assets/images/mentors3/praveen.jpeg";
+import pawan from "/assets/images/mentors3/pawan.jpg";
+import nitesh from "/assets/images/mentors3/nitesh.jpg";
+import anchal from "/assets/images/mentors3/anchal.jpeg";
+
+
 
 
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -57,7 +63,7 @@ const Speakers = () => {
             }
             // role="Mentor, Judge"
           />
-          <Member
+          {/* <Member
             image={aryan}
             name="Aryan Singh"
             social={
@@ -70,22 +76,22 @@ const Speakers = () => {
               </a>
             }
             // role="Mentor & Judge"
-          />
+          /> */}
           <Member
-            image={raajessh}
-            name="Raajessh Kashyap"
+            image={praveen}
+            name="Praveen Thakur"
             social={
               <a
-                href="https://twitter.com/Raajesshks"
+                href="https://www.linkedin.com/in/thakurpraveen/"
                 className="text-2xl text-gray-400 pb-1"
                 target={"_blank"}
               >
-                {/* <FaLinkedin /> */}
-                <FaXTwitter />
+                <FaLinkedin />
+                {/* <FaXTwitter /> */}
 
               </a>
             }
-            role="CEO & Co-Founder @ Nordek"
+            role="CTO & Co-Founder @ Nordek"
           />
           <Member
             image={abdallalit}
@@ -328,11 +334,11 @@ const Speakers = () => {
           
           
           <Member
-            image={shambhavi}
-            name="Shambhavi Gupta"
+            image={anchal}
+            name="Anchal Sharma"
             social={
               <a
-                href="https://www.linkedin.com/in/shambhavigupta03/"
+                href="https://www.linkedin.com/in/anchal-sharma-57a08714a/"
                 className="text-2xl text-gray-400 pb-1"
                 target={"_blank"}
               >
@@ -439,6 +445,16 @@ const Speakers = () => {
               </a>
             }
             // role="Nordek"
+          />
+          <Member
+            image={pawan}
+            name="Pawan choudhary"
+            role="National cyber crime investigator (CTF Mentor)"
+          />
+          <Member
+            image={nitesh}
+            name="Nitesh aka linuxroid"
+            role="Cyber security expert (CTF Mentor)"
           />
           {/* <Member
             image={sounak}
