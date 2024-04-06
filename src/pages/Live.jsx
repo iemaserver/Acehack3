@@ -7,7 +7,7 @@ const schedule = [
   ["2024-04-06T09:30:00", "Check-in Starts"],
   ["2024-04-06T11:00:00", "Opening Ceremony"],
   ["2024-04-06T11:30:00", "Rajasthan Police Session"],
-  ["2024-04-06T12:00:00", "Hackathon Begins!"],
+  ["2024-04-06T12:30:00", "Hackathon Begins!"],
   ["2024-04-06T13:30:00", "Lunch"],
   ["2024-04-06T14:30:00", "Nordek Session"],
   ["2024-04-06T15:30:00", "Orkes Session"],
@@ -40,33 +40,34 @@ const Live = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // React.useEffect(() => {
-  //   for (let i = 0; i < schedule.length; i++) {
-  //     let d = new Date(schedule[i][0]).getTime();
-  //     let t = time.getTime();
-  //     if (t < d) {
-  //       setCurrentEvent(i - 1);
-  //       break;
-  //     }
-  //   }
-  // }, [time]);
+  React.useEffect(() => {
+    for (let i = 0; i < schedule.length; i++) {
+      let d = new Date(schedule[i][0]).getTime();
+      let t = time.getTime();
+      if (t < d) {
+        setCurrentEvent(i - 1);
+        break;
+      }
+    }
+  }, [time]);
+
   return (
     <div
       id="live"
       className="py-12 bg-gray-900/30 relative scroll-smooth w-full"
     >
       <div className="flex flex-col md:flex-row text-lg text-white gap-10 mx-10 justify-between">
-        <div className="flex flex-col items-start">
+        { /* <div className="flex flex-col items-start">
           <p>Hacking Starts In</p>
           <h1 className="font-semibold pb-12 grad-text">
             <CountdownTimer targetDate={new Date("2024-04-06T12:00:00")} />
           </h1>
-        </div>
+  </div> */ }
         {/* Uncomment when live */}
-        {/* <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start">
           <p>Hacking Ends In</p>
           <h1 className="font-semibold pb-12 grad-text">
-            <CountdownTimer targetDate={new Date("2024-04-06T12:00:00")} />
+            <CountdownTimer targetDate={new Date("2024-04-07T13:00:00")} />
           </h1>
           <p>Happening Now</p>
           <h1 className="text-5xl font-bold pt-2 pb-12 grad-text">
@@ -78,13 +79,13 @@ const Live = () => {
               {schedule[currentEvent + 1][1]}
             </div>
             <div className="text-5xl font-semibold pt-2 pb-2 pl-4">
-              {schedule[currentEvent + 1][0].slice(0, 5)}
+              {schedule[currentEvent + 1][0].slice(11, 16)}
             </div>
           </div>
-        </div> */}
+        </div>
         <div className="w-full md:w-4/6">
           <iframe
-            className="w-full h-[70vh]"
+            className="w-full h-[75vh]"
             allowfullscreen
             id="wallsio-iframe"
             src={wall}
@@ -98,3 +99,4 @@ const Live = () => {
 };
 
 export default Live;
+
