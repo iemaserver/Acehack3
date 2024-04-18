@@ -43,7 +43,7 @@ const DateTimeDisplay = ({ value, type }) => {
 const ExpiredNotice = () => {
   return (
     <div className="font-extrabold text-sky-400 text-5xl py-6">
-      <p>Coming Soon!</p>
+      <p>🚀AceHack to the Moon🌕</p>
     </div>
   );
 };
