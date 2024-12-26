@@ -8,12 +8,12 @@ const About = () => {
     >
       <div className="flex flex-col text-white text-center items-center">
         <h1 className="text-4xl font-bold pb-12 px- flex-wrap">
-          <span className="grad-text">AceHack 3.0</span><br/> Hackathon is here!
+          <span className="grad-text">AceHack 4.0</span><br /> Hackathon is here!
         </h1>
         <div className="md:text-[26px] text-xl text-justify flex flex-col gap-5 lg:px-56 px-5">
           <p>
             This year, be part of an extraordinary gathering of 1,000+
-            innovators from around the nation. At AceHack 3.0, dive into a world
+            innovators from around the nation. At AceHack 4.0, dive into a world
             of collaborative hacking, connect with industry-leading mentors, and
             build because you love to create. Experience riveting workshops,
             thrilling activities, and network with the most influential tech
@@ -27,11 +27,7 @@ const About = () => {
         </h2>
         <div className="md:text-[26px] text-xl text-justify flex flex-col gap-5 lg:px-56 px-5">
           <p>
-            ACM, the world's largest educational and scientific computing
-            society, delivers resources that advance computing as a science and
-            a profession. ACM provides the computing field's premier Digital
-            Library and serves its members and the computing profession with
-            leading-edge publications, conferences, and career resources.
+            ACM, the world's largest educational and scientific computing society, delivers resources that advance computing as a science and a profession. ACM provides the computing field's premier Digital Library and serves its members and the computing profession with leading-edge publications, conferences, and career resources. UEM Jaipur ACM Student Chapter provides diverse opportunities for students to engage in computing-related activities. In addition to organizing talks, workshops, and career sessions, our chapter hosts a series of events throughout the year.
           </p>
         </div>
       </div>

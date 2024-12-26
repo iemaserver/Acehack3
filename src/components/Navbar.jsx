@@ -1,6 +1,7 @@
 import { useState } from "react";
 import FancyButton from "./FancyButton";
-import AceHackSm from "/assets/images/website-v2.svg";
+// import AceHackSm from "/assets/images/website-v2.svg";
+import AceHackSm from "/assets/images/acehack4-white.svg";
 // import AceHackSm from "/assets/images/acehack-nordek.svg";
 import { IconContext } from "react-icons";
 import { FaBars } from "react-icons/fa";
@@ -42,7 +43,7 @@ export const Navbar = () => {
             <a href="/">
               <img
                 src={AceHackSm}
-                alt="AceHack3.0"
+                alt="AceHack 4.0"
                 className="hidden lg:block object-contain h-20 ml-5"
               />
             </a>
@@ -50,7 +51,7 @@ export const Navbar = () => {
               <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
               {/* <FancyButton id={"live"} data={<a href="/live">Live</a>} /> */}
-              <FancyButton id={"timeline"} data={"Timeline"} />
+              {/* <FancyButton id={"timeline"} data={"Timeline"} /> */}
               <FancyButton id={"digitalswags"} data={"Digital Swags"} />
               <FancyButton id={"themes"} data={"Tracks"} />
               <FancyButton id={"speaker"} data={"Guests"} />
@@ -66,7 +67,7 @@ export const Navbar = () => {
               <FancyButton data="Register" id="register" />
               <FancyButton id={"about"} data={"About"} />
               {/* <FancyButton id={"live"} data={<a href="/live">Live</a>} /> */}
-              <FancyButton id={"timeline"} data={"Timeline"} />
+              {/* <FancyButton id={"timeline"} data={"Timeline"} /> */}
               <FancyButton id={"digitalswags"} data={"Digital Swags"} />
               <FancyButton id={"themes"} data={"Tracks"} />
               <FancyButton id={"speaker"} data={"Guests"} />

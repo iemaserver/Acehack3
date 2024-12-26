@@ -11,7 +11,8 @@ import TeamSection from "./pages/TeamSection";
 import Footer from "./pages/Footer";
 import Speakers from "./pages/Speakers";
 import Faq from "./pages/Faq";
-import Sponsor from "./pages/Sponsor";
+// import Sponsor from "./pages/Sponsor";
+import Sponsor from "./pages/Sponsor2";
 import Faculty from "./pages/Faculty";
 import Prizes from "./pages/Prizes";
 import Why from "./pages/why";
@@ -20,7 +21,7 @@ import Schedule from "./components/schedule";
 import AddressMap from "./pages/map";
 import AceHackSm from "/assets/images/website-v2.svg";
 import Live from "./pages/Live";
-import Timeline from "./pages/Timeline";
+// import Timeline from "./pages/Timeline";
 
 const AceLogo = (prop) => {
   return (
@@ -32,7 +33,7 @@ const AceLogo = (prop) => {
           <a href="/">
             <img
               src={AceHackSm}
-              alt="AceHack3.0"
+              alt="AceHack 4.0"
               className="hidden lg:block object-contain h-40"
             />
           </a>
@@ -59,7 +60,7 @@ const App = () => {
                   <Navbar />
                   <Home />
                   <About />
-                  <Timeline />
+                  {/* <Timeline /> */}
                   <Swag />
                   <Themes />
                   <Why />

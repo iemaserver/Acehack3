@@ -4,7 +4,8 @@ import Icon from "../components/Icon";
 
 import uem from "/assets/images/uem.png";
 // import acm from "/assets/images/acm.jpeg";
-import acm from "/assets/images/acmlogo.png";
+// import acm from "/assets/images/acmlogo.png";
+import acm from "/assets/images/acm-blu.png";
 import iic from "/assets/images/iic.jfif";
 import eduhub from "/assets/images/eduhub.png";
 // /workspaces/Acehack3/public/assets/images/eduhub.png

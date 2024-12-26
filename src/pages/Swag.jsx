@@ -1157,15 +1157,15 @@ const Swag = () => {
             <div className="text-md lg:text-xl font-mono text-center md:text-left mb-2 lg:mb-5">
               <div className="heading flex justify-center mb-10">
                 <h2 className="lg:text-4xl text-3xl grad-text font-bold -mb-16 md:-mb-8">
-                  AceHack 3.0 Digital Badge
+                  AceHack 4.0 Digital Badge
                 </h2>
               </div>
               <p className="lg:mb-3 mb-1">
-                Ready to rock AceHack 3.0? Show the world your excitement with
+                Ready to rock AceHack 4.0? Show the world your excitement with
                 our exclusive digital badge!
               </p>
               <p className="lg:mb-3 mb-1">
-                Personalize your AceHack 3.0 Badge with your name and photo.
+                Personalize your AceHack 4.0 Badge with your name and photo.
                 Download it and spread the word on social media using{" "}
                 <a
                   className=" underline hover:text-purple-300"
@@ -1220,7 +1220,7 @@ const Swag = () => {
                 </button>
                 <button>
                 <a
-                  href="https://ctt.ac/52bJ8"
+                  href="https://ctt.ac/cxM88"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
