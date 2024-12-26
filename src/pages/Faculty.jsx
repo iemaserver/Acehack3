@@ -3,7 +3,8 @@ import Member from "../components/Member";
 
 import vc from "/assets/images/faculty/vc.jpeg";
 import dipta from "/assets/images/faculty/dipta.jpeg";
-import mrinal from "/assets/images/faculty/mrinal.jpeg";
+// import mrinal from "/assets/images/faculty/mrinal.jpeg";
+import uma from "/assets/images/faculty/umadevi.jpg";
 import sagarika from "/assets/images/faculty/sagarika1.jpeg";
 
 const Faculty = () => {
@@ -21,10 +22,15 @@ const Faculty = () => {
             name="Prof. Dr. Biswajoy Chatterjee"
             role="Vice Chancellor, UEM Jaipur"
           />
-          <Member
+          {/* <Member
             image={mrinal}
-            name="Prof. Dr. Mrinal Kanti Sarkar"
+            name="Prof. Mrinal Sarkar"
             role="HOD CSE Dept, UEM Jaipur"
+          /> */}
+          <Member
+            image={uma}
+            name="Prof. G. Uma Devi"
+            role="Associate Dean & HOD, Dept. of CSE, UEM Jaipur"
           />
           <Member
             image={dipta}

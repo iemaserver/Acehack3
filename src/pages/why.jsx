@@ -4,7 +4,8 @@ import briefcase from "/assets/images/why/briefcase-icon.png";
 import food from "/assets/images/why/food-box-icon.png";
 import people from "/assets/images/why/people-icon.png";
 import project from "/assets/images/why/project-development-icon.png";
-import tshirt from "/assets/images/why/tshirt.png";
+// import tshirt from "/assets/images/why/tshirt.png";
+import giftBox from "/assets/images/why/giftBox.png";
 
 const Why = () => {
   return (
@@ -13,7 +14,7 @@ const Why = () => {
         <div className="flex flex-row justify-center">
           <h1 className="px-2  text-center text-5xl font-bold my-4">
             Why should you attend
-            <span className="grad-text"> AceHack 3.0?</span>
+            <span className="grad-text"> AceHack 4.0?</span>
           </h1>
         </div>
         <div className="flex flex-row w-[70%] flex-wrap justify-evenly text-sky-100/90">
@@ -46,9 +47,9 @@ const Why = () => {
             </h1>
           </div>
           <div className="text-center w-80 flex flex-col items-center">
-            <img src={tshirt} alt="meeting" className="h-48 mt-10 mb-3" />
+            <img src={giftBox} alt="meeting" className="h-48 mt-10 mb-3" />
             <h1 className="text-xl font-semibold">
-              AceHack3.0 Exclusive t-shirt for all.
+              Chance to win exciting swags and goodies.
             </h1>
           </div>
         </div>

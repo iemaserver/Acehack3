@@ -1,6 +1,7 @@
 import React from "react";
 // import AceHackLogo from "/assets/images/website-v2.svg";
-import AceHackLogo from "/assets/images/acehack-nordek.svg";
+// import AceHackLogo from "/assets/images/acehack-nordek.svg";
+import AceHackLogo from "/assets/images/acehack4-white.svg";
 import backgroundImage from "/assets/images/background-image.jpg";
 import { ImLocation } from "react-icons/im";
 import CountdownTimer from "../components/Timer";
@@ -8,9 +9,12 @@ import FancyButton from "../components/FancyButton";
 
 import Icon from "../components/Icon";
 import uem from "/assets/images/uem.png";
-import acm from "/assets/images/acm.jpeg";
+// import acm from "/assets/images/acm.jpeg";
+import acm from "/assets/images/acm-blu.png";
 import rpLogo from "/assets/images/sponsors/rpLogo.jpg";
 import { FaBus } from "react-icons/fa";
+
+import location from "../../public/assets/images/location-solid.svg";
 
 const Home = () => {
   // React.useEffect(() => {
@@ -57,12 +61,19 @@ const Home = () => {
             className="bg-violet-500 rounded-md hover:bg-violet-600"
             style={{ height: "44px", width: "312px" }}
           >
-            <a
+            {/* <a
               href="https://acehack-3.devfolio.co/"
               className="flex h-full w-full justify-center items-center text-xl font-semibold"
               target={"_blank"}
             >
               <p>Apply with Devfolio &nbsp; </p>
+            </a> */}
+            <a
+              href="#"
+              className="flex h-full w-full justify-center items-center text-xl font-semibold"
+              target={"_parent"}
+            >
+              <p>Registration Opening Soon</p>
             </a>
           </div>
           <div
@@ -70,7 +81,7 @@ const Home = () => {
             style={{ height: "44px", width: "312px" }}
           >
             <a
-              href="https://linktr.ee/acehack3"
+              href="https://linktr.ee/acehack4"
               className="flex h-full w-full justify-center items-center text-xl font-semibold"
               target={"_blank"}
             >
@@ -85,10 +96,16 @@ const Home = () => {
             Engineering and Management Jaipur
           </p> */}
           <h3 className="text-4xl m-4 mb-5 md:mb-3">
-            April 6<sup>th</sup> - 7<sup>th</sup>
+            {/* April 6<sup>th</sup> - 7<sup>th</sup> */}
+            Coming Soon...
           </h3>
           <p className="mb-8 md:mb-4">
-            @ University of Engineering & Management, Jaipur
+            <img
+              src={location}
+              className="h-7 w-7 inline-block align-bottom pb-1"
+              alt="Location Icon"
+            />
+            University of Engineering & Management, Jaipur
           </p>
           <a
             target="_blank"

@@ -27,7 +27,7 @@ const Faq = () => {
         >
           <p className="faq-ans">
             No, You do not have to pay anything to anyone to register yourself
-            for AceHack3.0
+            for AceHack 4.0
           </p>
         </Collapsible>
         <Collapsible
@@ -35,7 +35,7 @@ const Faq = () => {
           label="Who can apply ?"
         >
           <p className="faq-ans">
-            Anyone(must be a college/School student) having a knack of solving
+            Anyone (must be a college/School student) having a knack of solving
             real life problems can apply for the hackathon.
           </p>
         </Collapsible>
@@ -44,8 +44,9 @@ const Faq = () => {
           label="What Is The Procedure Of Forming A Team ?"
         >
           <p className="faq-ans">
-            Firstly make sure all teammates have registered on Devfolio. You can
-            create your team from the devfolio dashboard.
+            Firstly make sure all teammates have registered on platform <i> (to be announce)</i>. You can
+            create your team 
+            {/* from the devfolio dashboard. */} on the platform.
           </p>
         </Collapsible>
         <Collapsible
