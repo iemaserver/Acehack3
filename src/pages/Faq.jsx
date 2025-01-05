@@ -35,7 +35,7 @@ const Faq = () => {
           label="Who can apply ?"
         >
           <p className="faq-ans">
-            Anyone (must be a college/School student) having a knack of solving
+            Anyone (must be a college/School student or working professionals) having a knack of solving
             real life problems can apply for the hackathon.
           </p>
         </Collapsible>
@@ -44,7 +44,7 @@ const Faq = () => {
           label="What Is The Procedure Of Forming A Team ?"
         >
           <p className="faq-ans">
-            Firstly make sure all teammates have registered on platform <i> (to be announce)</i>. You can
+            Firstly make sure all teammates have registered on DoraHacks. You can
             create your team 
             {/* from the devfolio dashboard. */} on the platform.
           </p>
@@ -70,7 +70,7 @@ const Faq = () => {
           style="bg-purple-900/50 rounded-md py-1 ml-2"
           label="What Can Be The Size Of The Team ?"
         >
-          <p className="faq-ans">A team can consist of 2 to 4 members.</p>
+          <p className="faq-ans">A team can consist of 2 to 4 members. However, You can participate solo.</p>
         </Collapsible>
         <Collapsible
           style="bg-purple-900/50 rounded-md py-1 ml-2"

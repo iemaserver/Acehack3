@@ -1,7 +1,8 @@
 import React from "react";
 // import AceHackLogo from "/assets/images/website-v2.svg";
 // import AceHackLogo from "/assets/images/acehack-nordek.svg";
-import AceHackLogo from "/assets/images/acehack4-white.svg";
+// import AceHackLogo from "/assets/images/acehack4-white.svg";
+import AceHackLogo from "/assets/images/acehack4-light.png";
 import backgroundImage from "/assets/images/background-image.jpg";
 import { ImLocation } from "react-icons/im";
 import CountdownTimer from "../components/Timer";
@@ -69,11 +70,11 @@ const Home = () => {
               <p>Apply with Devfolio &nbsp; </p>
             </a> */}
             <a
-              href="#"
+              href="https://dorahacks.io/hackathon/acehack4/detail"
               className="flex h-full w-full justify-center items-center text-xl font-semibold"
-              target={"_parent"}
+              target={"_blank"}
             >
-              <p>Registration Opening Soon</p>
+              <p>Register now with DoraHacks &nbsp; </p>
             </a>
           </div>
           <div
@@ -97,7 +98,7 @@ const Home = () => {
           </p> */}
           <h3 className="text-4xl m-4 mb-5 md:mb-3">
             {/* April 6<sup>th</sup> - 7<sup>th</sup> */}
-            Coming Soon...
+            8th - 9th March 2024
           </h3>
           <p className="mb-8 md:mb-4">
             <img
